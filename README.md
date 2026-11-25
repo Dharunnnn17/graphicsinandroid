@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
       
         Canvas canvas = new Canvas(bg);
         Paint paint = new Paint();
-        paint.setColor(Color.RED);
+        paint.setColor(Color.BLUE);
         paint.setTextSize(50);
         
         canvas.drawText("Circle", 120, 150, paint);
